@@ -1,3 +1,4 @@
+import 'dart:ffi';
 import 'dart:math';
 import 'dart:convert';
 import 'dart:io';
@@ -26,5 +27,5 @@ void loopswork(){
     print("Вы ввели ${read}");
     if (read=="z"){break;}
   }
-  
+
 }

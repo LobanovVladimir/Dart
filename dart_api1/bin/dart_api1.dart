@@ -1,5 +1,7 @@
 import 'dart:ffi';
 
+import 'package:dart_api1/Inheritance.dart';
+import 'package:dart_api1/classes.dart';
 import 'package:dart_api1/collections.dart';
 import 'package:dart_api1/dart_api1.dart' as dart_api1;
 import 'package:dart_api1/functions.dart' as functions;
@@ -70,5 +72,14 @@ void main(List<String> arguments) {
    //listwork();
 
    //mapwork();
-   loopswork();
+
+   //loopswork();
+
+  // classes
+  /*var ct = new test(1, "smt here");
+  var ct2 = new test(1, "smt here");
+  test ct3 = new test.wrong();
+  print(ct==ct2);*/
+
+  extending();
 }
