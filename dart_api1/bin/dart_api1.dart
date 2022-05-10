@@ -1,10 +1,14 @@
 import 'dart:ffi';
 
 import 'package:dart_api1/Inheritance.dart';
+import 'package:dart_api1/async.dart';
 import 'package:dart_api1/classes.dart';
 import 'package:dart_api1/collections.dart';
 import 'package:dart_api1/dart_api1.dart' as dart_api1;
+import 'package:dart_api1/exeption.dart';
 import 'package:dart_api1/functions.dart' as functions;
+import 'package:dart_api1/generators.dart';
+import 'package:dart_api1/genriks.dart';
 import 'package:dart_api1/loops.dart';
 import 'package:dart_api1/maps.dart';
 import 'package:dart_api1/ov.dart';
@@ -81,5 +85,13 @@ void main(List<String> arguments) {
   test ct3 = new test.wrong();
   print(ct==ct2);*/
 
-  extending();
+  //extending();
+
+  //testgen();
+
+  //testexept();
+
+  //asyntest();
+
+  gentest();
 }
